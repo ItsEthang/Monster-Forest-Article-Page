@@ -1,0 +1,77 @@
+/* Hover Navigation */
+.hover-nav {
+  top: 0;
+  position: fixed;
+  height: 100%;
+  display: flex;
+  z-index: 20;
+  align-items: center;
+  font-size: 1.2rem;
+  line-height: 2.2;
+  font-weight: 700;
+  left: -20.6rem;
+  transition: left 0.5s ease-out;
+}
+.hover-content {
+  background-image: url(../../resources/images/black-paper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: scroll;
+  height: 100%;
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+.hover-nav h3 {
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+}
+.hover-nav ol {
+  padding-left: 0;
+  list-style: upper-roman outside;
+  text-transform: capitalize;
+}
+.hover-nav h2 {
+  font-family: "Hind-Madurai_Bold", Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.hover-nav a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.5s ease-out;
+}
+.hover-nav a:hover {
+  cursor: pointer;
+  color: rgb(232, 39, 97);
+}
+#arrow {
+  background-color: black;
+  padding: 0.5rem 0.5rem 0.5rem 0.8rem;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  opacity: 0.5;
+}
+
+/* Main */
+main {
+  background-color: rgb(40, 40, 40);
+}
+
+/* Articles */
+.articles ul h4,
+.articles ol p {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.articles ul li,
+.articles ol li {
+  margin-left: 3rem;
+}
+.articles #big {
+  font-family: "MerriweatherSans_Bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 5rem;
+  float: left;
+  padding: 0 1.5rem 1.5rem 0;
+}

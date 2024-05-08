@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Highlander";
+  src: url("../fonts/HIGHLANDER.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MerriweatherSans";
+  src: url("../fonts/MerriweatherSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MerriweatherSans_Bold";
+  src: url("../fonts/MerriweatherSans-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MerriweatherSans_Italic";
+  src: url("../fonts/MerriweatherSans-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MerriweatherSans_Italic_Bold";
+  src: url("../fonts/MerriweatherSans-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Hind-Madurai_Bold";
+  src: url("../fonts/HindMadurai-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Hind-Madurai_Light";
+  src: url("../fonts/HindMadurai-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MerriweatherSans_Light";
+  src: url("../fonts/MerriweatherSans-Light.ttf") format("truetype");
+}

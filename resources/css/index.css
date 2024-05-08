@@ -1,0 +1,47 @@
+/* Welcome Section */
+.welcome {
+  margin-top: 5rem;
+}
+.welcome h4 {
+  text-transform: capitalize;
+  font-size: larger;
+  margin-bottom: 0;
+}
+.welcome p {
+  margin: 0.5rem auto;
+}
+.welcome img {
+  width: 16rem;
+  height: 10rem;
+  border-radius: 75%;
+  box-shadow: 0px 0px 20px rgb(136, 136, 136);
+  transition: width 1s, height 1s;
+}
+.three-opt {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 62.5rem;
+  margin: 3rem auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.three-opt h4 {
+  margin-top: 0.6rem;
+  letter-spacing: 0.1rem;
+}
+.welcome img:hover {
+  width: 17rem;
+  height: 10.5rem;
+}
+
+/* Introduction */
+.intro img {
+  width: 17.5rem;
+  height: 12.5rem;
+  margin-right: 3rem;
+  float: left;
+}
+.rants,
+.conclusion {
+  margin-top: 5rem;
+}

@@ -1,0 +1,60 @@
+.comment-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  background-color: rgb(40, 40, 40);
+  font-family: arial;
+  padding-bottom: 3rem;
+}
+.comment-sec .container {
+  width: 37.5rem;
+  border: 2px solid rgb(87, 84, 84);
+  padding: 1rem 0.625rem;
+}
+.comment-sec .container h2 {
+  font-family: "MerriweatherSans_Bold", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.comment-sec textarea {
+  overflow: scroll;
+  font-family: "Hind-Madurai_Light", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  height: 1.25rem;
+  max-height: 3.8rem;
+  width: 100%;
+  color: white;
+  border: none;
+  border-bottom: 2px solid #aaa;
+  background-color: transparent;
+  margin-bottom: 0.625rem;
+  resize: none;
+  outline: none;
+  transition: 0.5s;
+}
+
+.comment-sec input[type="submit"],
+.comment-sec button {
+  padding: 0.625rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+.comment-sec input[type="submit"] {
+  color: #fff;
+  background-color: crimson;
+}
+.comment-sec button {
+  color: rgba(245, 245, 245, 0.828);
+  background-color: transparent;
+}
+.comment-sec .btn {
+  display: none;
+}

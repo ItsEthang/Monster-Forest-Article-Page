@@ -1,0 +1,229 @@
+/* Global */
+html {
+  font-size: 16px;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  font-family: "MerriweatherSans", Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+}
+#center {
+  text-align: center;
+}
+#mf {
+  font-family: "Highlander";
+  text-transform: uppercase;
+  color: crimson;
+}
+.divider {
+  margin: 1rem auto;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  width: 100%;
+}
+main p {
+  width: 85%;
+  margin-left: 3rem;
+  line-height: 1.5rem;
+}
+
+/* Page Hero */
+.page-hero {
+  display: flex;
+  background-image: url(../images/home-hero.jpg);
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40rem;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: inset 0px -15px 25px -10px rgba(204, 204, 204, 0.771);
+}
+.text {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: fit-content;
+  width: 100%;
+  opacity: 100%;
+  z-index: 10;
+}
+.text h1 {
+  font-family: "MerriweatherSans_Bold", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+.text #pw {
+  font-family: "MerriweatherSans_Italic", Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: crimson;
+  margin: 0.3rem 0 2.2rem 0;
+}
+.text #quote {
+  font-family: "Hind-Madurai_Light", Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  width: 75%;
+}
+.text #author {
+  font-family: "Hind-Madurai_Bold", Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  font-style: italic;
+  margin: 0.1rem auto;
+  margin-bottom: 1.2rem;
+}
+
+/* Header */
+header {
+  background-color: black;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+header .container {
+  display: flex;
+  align-items: center;
+  height: 3.5rem;
+  padding: 0 2rem;
+}
+header .logo {
+  color: crimson;
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 800;
+  flex: 1;
+}
+header nav {
+  color: white;
+  display: block;
+}
+header ul {
+  display: flex;
+  padding-left: 1.5rem;
+  list-style-type: none;
+}
+header nav li {
+  padding-left: 5rem;
+}
+header nav img {
+  height: 1.4rem;
+  width: 1.3rem;
+  padding: 0.1rem;
+}
+header a {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-decoration: none;
+}
+header nav a:link {
+  color: white;
+}
+header nav a:visited {
+  color: white;
+}
+header nav a:hover {
+  cursor: pointer;
+  color: rgb(232, 39, 97);
+}
+header nav a:active {
+  font-size: 0.95rem;
+  color: rgb(232, 39, 97);
+  text-shadow: 1px 1px 3px white;
+}
+header nav img:hover {
+  background-color: rgb(40, 40, 40);
+}
+
+/* Articles */
+.articles {
+  background-color: rgb(40, 40, 40);
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;
+}
+.articles h2,
+.articles h3,
+.articles h4 {
+  font-family: "MerriweatherSans_Bold", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  padding-top: 2.4rem;
+  padding-bottom: 1.8rem;
+  margin-bottom: 0;
+  margin-left: 3rem;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.664);
+  width: 85%;
+}
+.articles h3,
+.articles h4 {
+  color: whitesmoke;
+  text-transform: capitalize;
+  border: none;
+  padding-bottom: 0;
+  padding-top: 0.2rem;
+  opacity: 0.75;
+}
+
+/* Footer */
+footer {
+  padding-top: 3rem;
+  background-color: black;
+  box-shadow: inset 0px 45px 25px rgb(40, 40, 40);
+}
+.subscribe h2 {
+  font-family: "MerriweatherSans_Bold", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+#email {
+  font-family: "MerriweatherSans_Light", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  width: 30%;
+  border: none;
+  margin: 1rem 2rem 2rem;
+  padding: 0 1rem;
+  height: 2.5rem;
+  border-radius: 5rem;
+}
+.button {
+  height: 2.5rem;
+  font-family: "MerriweatherSans_Bold", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  border-radius: 5rem;
+  border: none;
+  padding: 0 1.5rem;
+  background-color: crimson;
+  color: white;
+  transition: color 0.5s, background-color 0.5s;
+}
+footer form {
+  margin-bottom: 3rem;
+}
+.contacts {
+  margin-bottom: 5rem;
+}
+.contacts h2,
+.contacts h4 {
+  margin-bottom: 0.5rem;
+}
+.contacts h4 {
+  font-size: 0.8rem;
+  margin-top: 0;
+}
+footer p {
+  font-size: 0.6rem;
+  font-family: "MerriweatherSans_Light", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}

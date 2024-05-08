@@ -1,0 +1,44 @@
+/* Main */
+main {
+  background-color: rgb(40, 40, 40);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.login-field {
+  width: 22rem;
+  margin: 0 auto;
+}
+main input {
+  display: block;
+  margin: 2rem auto;
+}
+main label {
+  font-size: 1.3rem;
+  padding: 2rem 0;
+  text-transform: uppercase;
+}
+main h2 {
+  text-align: center;
+  font-family: "MerriweatherSans-Bold", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+#username,
+#password {
+  font-size: 1rem;
+  height: 2rem;
+  padding-left: 1rem;
+  width: 20rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+main input:focus {
+  box-shadow: 0 0 20px white;
+}
+#login {
+  font-size: 1.2rem;
+  margin-top: 3rem;
+}
