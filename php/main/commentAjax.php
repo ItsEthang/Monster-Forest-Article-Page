@@ -1,9 +1,9 @@
 <?php
 
-define('DB_NAME', 'ytang23');
-define('DB_USER', 'ytang23');
-define('DB_PASSWORD', 'ytang23');
-define('DB_HOST', 'localhost');
+define('DB_NAME', 'if0_37364255_monster_forest');
+define('DB_USER', 'if0_37364255');
+define('DB_PASSWORD', 'e2HSIaZg5n');
+define('DB_HOST', 'sql210.infinityfree.com');
 
 // Create connection
 $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
